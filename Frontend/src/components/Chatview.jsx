@@ -5,7 +5,7 @@ import { IoMdSend } from "react-icons/io";
 import { format } from "timeago.js";
 import io from "socket.io-client";
 import { useRef } from "react";
-const socket = io("https://chat-app-two-beryl.vercel.app/");
+const socket = io("https://chat-server-ai9x.onrender.com/");
 
 const Chatview = ({ user }) => {
   const [message, setMessage] = useState("");

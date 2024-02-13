@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Adduser from './components/Adduser';
+import Chatview from './components/Chatview';
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
         </div>
       ) : (
         <div>
-          Messages
+          <Chatview user={user}/>
         </div>
       )}
     </>
